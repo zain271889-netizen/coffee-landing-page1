@@ -1,0 +1,103 @@
+/* Global Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+/* Navbar Styling using Flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b45309;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #64748b;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.navbar nav a:hover {
+    color: #b45309;
+}
+
+.nav-btn {
+    background-color: #b45309;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #78350f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fde68a;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f59e0b;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Features / Cards Section */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #78350f;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card h3 {
+    color: #b45309;
+    margin-top: 0;
+}
